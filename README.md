@@ -1,14 +1,13 @@
-# Code release: bioacoustic-optical behaviour perception of *Litopenaeus vannamei*
+# Code release
 
-This package contains the source code used in the paper on bioacoustic-optical
-cooperative behaviour perception of whiteleg shrimp. It is organised as three
+This package contains the source code of whiteleg shrimp. It is organised as three
 independent projects.
 
-| Folder | Paper section | What it does |
+| Folder | What it does |
 |---|---|---|
-| `bioacoustic/` | Sections 3.1-3.4 | training and evaluation of the five-state acoustic classifier (ASP-SEResNet and comparison models) |
-| `optical/` | Sections 4.1-4.3 | training and evaluation of the MPA-YOLO detector and comparison detectors |
-| `preprocessing/` | Section 3.2 | MATLAB scripts for band-pass filtering, framing and dual-threshold endpoint detection |
+| `bioacoustic/` |  training and evaluation of the five-state acoustic classifier (ASP-SEResNet and comparison models) |
+| `optical/` | training and evaluation of the MPA-YOLO detector and comparison detectors |
+| `preprocessing/` | MATLAB scripts for band-pass filtering, framing and dual-threshold endpoint detection |
 
 The processed dataset is available on Zenodo:
 [Download the dataset](https://doi.org/10.5281/zenodo.24011185).
@@ -111,9 +110,5 @@ See `LICENSE_INFO.md` for the list of modifications relative to the upstream
 projects.
 
 ## 6. Citation
-
-```
-Deng, C., Li, H., Liu, Y., Cao, K., Feng, H., Liu, Z., Zheng, B., Fu, M. An intelligent bioacoustic–optical cooperative system for behavioral perception in Litopenaeus vannamei aquaculture. (under review)
-```
 
 Code repository: https://github.com/1790583099/shrimp-bioacoustic-optical-code
