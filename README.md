@@ -4,7 +4,7 @@ This package contains the source code of whiteleg shrimp. It is organised as thr
 independent projects.
 
 | Folder | What it does |
-|---|---|---|
+|---|---|
 | `bioacoustic/` |  training and evaluation of the five-state acoustic classifier (ASP-SEResNet and comparison models) |
 | `optical/` | training and evaluation of the MPA-YOLO detector and comparison detectors |
 | `preprocessing/` | MATLAB scripts for band-pass filtering, framing and dual-threshold endpoint detection |
