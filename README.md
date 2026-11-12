@@ -64,10 +64,8 @@ python detect.py
 ```
 
 `data.yaml` points at the image/label folders; edit `path` to your local copy of
-the optical subset. The split lists (`train.txt`, `val.txt` and `test.txt`) are
-not included in the dataset release either; create them from your local copy of
-`optical/images` and `optical/labels` following a 7:2:1 split. The modified files
-relative to upstream Ultralytics are:
+the optical subset. 
+The modified files relative to upstream Ultralytics are:
 
 - `ultralytics/nn/NewModules/atte.py` - ST, CA and SA attention modules, ATTE and C2fATTE blocks
 - `ultralytics/cfg/models/MPA-YOLO.yaml` - MPA-YOLO architecture
